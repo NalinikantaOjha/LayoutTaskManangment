@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Signup">
+    <View
+        style="@style/view"
+        android:id="@+id/view"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@color/blue"
+        >
+    </View>
+    <ImageView
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_marginTop="@dimen/dp_20"
+        style="@style/imageview"
+        android:background="@drawable/ic_vector__3_"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </ImageView>
+    <TextView
+        style="@style/textview"
+        android:layout_marginTop="@dimen/dp_50"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="@color/white"
+        android:text="Create New Task"
+        android:layout_marginLeft="@dimen/dp_20"></TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/view"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginTop="@dimen/dp_0"
+            style="@style/textview2"
+            android:text="Task Title"
+            android:textColor="@color/black"
+            >
+
+        </TextView>
+        <EditText
+            android:id="@+id/Tasktitle2"
+            style="@style/edittext"
+            android:background="@drawable/draw"></EditText>
+        <TextView
+            android:layout_marginTop="@dimen/dp_0"
+            style="@style/textview2"
+            android:text="Task Description"
+            android:textColor="@color/black"
+            >
+
+        </TextView>
+        <EditText
+            android:padding="@dimen/dp_50"
+            android:layout_marginTop="@dimen/dp_0"
+            android:id="@+id/Taskdescription2"
+            style="@style/edittext"
+            android:background="@drawable/draw"></EditText>
+        <TextView
+            android:layout_marginTop="@dimen/dp_0"
+            style="@style/textview2"
+            android:text="Date"
+            android:textColor="@color/black"
+            >
+
+        </TextView>
+        <EditText
+            android:id="@+id/etdda2"
+            style="@style/edittext"
+            android:background="@drawable/draw"></EditText>
+        <TextView
+            android:layout_marginTop="@dimen/dp_0"
+            style="@style/textview2"
+            android:text="Task Status"
+            android:textColor="@color/black"
+            >
+
+        </TextView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/radiopending2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </RadioButton>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="pending"
+                android:padding="@dimen/dp_20">
+
+            </TextView>
+            <RadioButton
+                android:id="@+id/radiocomplited2"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </RadioButton>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="complited"
+                android:padding="@dimen/dp_20">
+
+            </TextView>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/deletetask"
+            android:layout_marginBottom="@dimen/dp_0"
+            style="@style/textview2"
+            android:text="Delete task"
+            android:drawableLeft="@drawable/ic_vector__14_"
+            android:textColor="@color/red"
+            >
+
+        </TextView>
+        <Button
+            android:layout_marginTop="@dimen/dp_0"
+            android:id="@+id/btnapplychanges"
+            style="@style/Button"
+            android:background="@color/orange"
+            android:text="Apply Changes"
+            android:textAllCaps="false"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:layout_marginRight="@dimen/dp_20">
+
+
+        </Button>
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

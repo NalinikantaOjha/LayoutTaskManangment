@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TaskManagmentEvening</string>
+    <string name="taskify">Taskyfy</string>
+    <string name="createanaccount">Create an Account</string>
+    <string name="alradyhaveanaccount">Alrady have an account</string>
+    <string name="signin">Sign in</string>
+    <string name="Login">Login</string>
+    <string name="signup">Sign up</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="ReeEntrepassword">Re Enter Password</string>
+    <string name="Forgotyourpasswoed">Forgot your Password ?</string>
+    <string name="Heysofia">Hey Sofia</string>
+    <string name="Welcomeback">Welcome back</string>
+    <string name="Today">Today</string>
+</resources>
